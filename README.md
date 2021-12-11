@@ -1,1 +1,1 @@
-# rule_based_classification_project.py
+# Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
