@@ -59,9 +59,6 @@ df.groupby("COUNTRY").agg({"PRICE":"mean"}).round(2).sort_values(["PRICE"], asce
 # SOURCE'lara göre PRICE ortalamaları nedir?
 df.groupby("SOURCE").agg({"PRICE":"mean"}).round(2)
 
-agg_df =df.groupby(["COUNTRY","SOURCE","SEX","AGE"]).agg({"PRICE":"mean"})
-agg_df =agg_df.sort_values("PRICE",ascending=False)
-
 
 # COUNTRY-SOURCE kırılımında PRICE ortalamaları nedir?
 df.groupby(["COUNTRY","SOURCE"]).agg({"PRICE":"mean"}).round(2)
